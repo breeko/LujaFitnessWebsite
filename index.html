@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luja Fitness</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="javascripts/app.js"></script>
+
+    </head>
+    <body>
+        <center>
+            <h1>Luja Fitness</h1>
+            <h2>7-Minute Workout</h2>
+        </center>
+            <img align="midde" class="icon" src="images/icon.png">
+            <div class="container">
+                <a class="prev" onclick="plusSlides(-1)"><span>&#10094;</span></a>
+                <a class="next" onclick="plusSlides(1)"><span>&#10095;</span></a>
+                <img id="ex-img" src="images/high_knees.png">
+                
+            </div>
+        <br><br>
+        <label>Number of Sets: </label>
+        <select id="sets">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select> <br>
+        <label>Rest Between Sets (seconds):</label>
+        <select id="rest">
+            <option>0</option>
+            <option>5</option>
+            <option>10</option>
+            <option>15</option>
+            <option>20</option>
+            <option>25</option>
+            <option>30</option>
+        </select> 
+        <br><br>
+        <center>
+            <button id="begin">Begin</button>
+        </center>
+        hello <img src="images/icon.png">
+    </body>
+</html>
